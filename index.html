@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Envío E-mail</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="encabezado">
+            <p>Enviar nuevo email</p>
+        </div>
+        <div class="cuerpo">
+            <form action="#">
+                <div class="fila">
+                    <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                </div>
+                <div class="fila">
+                    <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Mensaje..."></textarea>
+                </div>
+                <br />
+                <div class="pie">
+                    <button type="submit" class="boton_enviar" id="boton_enviar">
+                        Enviar
+                    </button>
+                    <button type="reset" class="boton_reset">
+                        Limpiar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

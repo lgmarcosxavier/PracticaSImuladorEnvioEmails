@@ -1,0 +1,72 @@
+body
+{
+    background-color: #00b3b3;
+}
+
+.contenedor
+{
+    background-color: #FFF;
+    width: 60%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    height: 340px; /* altura del contenedor */
+    
+}
+
+.encabezado
+{
+    background-color: #ff1a75;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.contenedor .fila {
+    padding: 10px;
+}
+
+.fila input[type=email] {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.fila input[type=text] {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.fila textarea {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 20px;
+    resize: none;
+}
+
+.pie {
+    margin: 20px 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.pie button {
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+
+.boton_enviar {
+    background-color: #ff1a75;
+    float: left;
+}
+
+.invalidar {
+    background-color: #ff9999;
+    color: #FFF;
+}
+
+.boton_reset{
+    background-color: #1a1aff;
+    float: right;
+}
